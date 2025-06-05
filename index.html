@@ -26,4 +26,67 @@
     <p class="about__text">
       Vibe-U es una app hecha por y para estudiantes. Te ayuda a conocer gente nueva de otras universidades, formar parte de comunidades con intereses comunes y asistir a eventos que realmente valen la pena.
     </p>
+        <section class="funcionalidades">
+  <div class="funcionalidades__grid">
+    <div class="funcionalidad__item">
+      <img src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" alt="Haz nuevos amigos" />
+      <p>Haz nuevos amigos</p>
+    </div>
+    <div class="funcionalidad__item">
+      <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Únete a comunidades" />
+      <p>Únete a comunidades</p>
+    </div>
+    <div class="funcionalidad__item">
+      <img src="https://cdn-icons-png.flaticon.com/512/4221/4221927.png" alt="Asiste a eventos" />
+      <p>Asiste a eventos</p>
+    </div>
+    <div class="funcionalidad__item">
+      <img src="https://cdn-icons-png.flaticon.com/512/992/992700.png" alt="Conecta por afinidad" />
+      <p>Conecta por afinidad</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .funcionalidades {
+    background-color: #1c0029;
+    padding: 3rem 1rem;
+  }
+
+  .funcionalidades__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .funcionalidad__item {
+    background-color: #8e296a; 
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+  }
+
+  .funcionalidad__item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+  }
+
+  .funcionalidad__item p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .funcionalidad__item:hover {
+    transform: scale(1.05);
+  }
+</style>
   </div>
